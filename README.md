@@ -13,3 +13,7 @@ Repositorio: [https://github.com/FRQ23/gestion_de_la_innovacion](https://github.
 - `unidad N/trabajos - actividades/` — entregables
 
 Autor: [FRQ23](https://github.com/FRQ23)
+
+## Archivero local
+
+En el escritorio, la carpeta **archivero** guarda la copia de trabajo de `unidad 1` … `unidad 4`. Si agregas o cambias PDFs ahí, copia esas carpetas encima de **gestion** antes de `git push` para que el sitio y el repo sigan al día.
