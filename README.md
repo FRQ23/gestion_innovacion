@@ -8,7 +8,7 @@ Repositorio: [https://github.com/FRQ23/gestion_de_la_innovacion](https://github.
 
 ## Contenido en el repo
 
-- `index.html`, `styles.css`, `script.js` — página del portafolio
+- `index.html`, `styles.css`, `script.js` — portafolio (CSS propio, tipografía [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans); estética inspirada en dashboards tipo [Minimals](https://minimals.cc/), sin usar ese kit MUI de pago)
 - `unidad N/Repositorio (fuentes)/` — referencias y lecturas
 - `unidad N/trabajos - actividades/` — entregables
 

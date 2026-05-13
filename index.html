@@ -4,172 +4,209 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio — Gestión de la Innovación</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header>
-        <nav class="navbar">
-            <div class="container">
-                <div class="nav-brand">
-                    <h1>Gestión de la Innovación</h1>
-                </div>
-                <ul class="nav-menu">
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#unidades">Unidades</a></li>
-                    <li><a href="#unidad-1">U1</a></li>
-                    <li><a href="#unidad-2">U2</a></li>
-                    <li><a href="#unidad-3">U3</a></li>
-                    <li><a href="#unidad-4">U4</a></li>
-                </ul>
-            </div>
-        </nav>
+<body class="site">
+    <div class="bg-mesh" aria-hidden="true"></div>
+
+    <header class="site-header">
+        <div class="wrap header-inner">
+            <a href="#inicio" class="brand">
+                <span class="brand-mark" aria-hidden="true"></span>
+                <span class="brand-text">Gestión de la innovación</span>
+            </a>
+            <nav class="site-nav" aria-label="Secciones">
+                <a href="#inicio">Inicio</a>
+                <a href="#datos-personales">Datos</a>
+                <a href="#unidades">Unidades</a>
+                <a href="#unidad-1">U1</a>
+                <a href="#unidad-2">U2</a>
+                <a href="#unidad-3">U3</a>
+                <a href="#unidad-4">U4</a>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <section id="inicio" class="hero">
-            <div class="container">
-                <div class="hero-content">
-                    <h2 class="hero-title">Portafolio del curso</h2>
-                    <p class="hero-subtitle">Gestión de la Innovación</p>
-                    <p class="hero-description">
-                        Consulta pública del material del curso: por unidad se muestran las fuentes de apoyo
-                        (<strong>Repositorio (fuentes)</strong>) y los entregables
-                        (<strong>trabajos - actividades</strong>). Los archivos enlazan al contenido del mismo repositorio.
-                    </p>
-                    <div class="hero-buttons">
-                        <a href="#unidades" class="btn btn-primary">Ver unidades</a>
-                        <a href="https://github.com/FRQ23/gestion_de_la_innovacion" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">Ver en GitHub</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="unidades" class="units-intro">
-            <div class="container">
-                <h2 class="section-title">Unidades</h2>
-                <p class="section-subtitle">
-                    Navegación por unidad académica: fuentes y trabajos publicados en el repositorio.
+    <main class="site-main">
+        <div class="wrap">
+            <section id="inicio" class="hero">
+                <p class="eyebrow">Portafolio académico · UABC</p>
+                <h1 class="hero-title">Material del curso, <span class="hero-accent">ordenado y claro</span></h1>
+                <p class="hero-lead">
+                    Fuentes de apoyo en <strong>Repositorio (fuentes)</strong> y entregables en
+                    <strong>trabajos - actividades</strong>. Todo enlaza a los archivos del mismo repositorio.
                 </p>
-                <nav class="unit-jump" aria-label="Ir a unidad">
-                    <a class="btn-small" href="#unidad-1">Unidad 1</a>
-                    <a class="btn-small" href="#unidad-2">Unidad 2</a>
-                    <a class="btn-small" href="#unidad-3">Unidad 3</a>
-                    <a class="btn-small" href="#unidad-4">Unidad 4</a>
-                </nav>
-            </div>
-        </section>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="#unidades">Explorar unidades</a>
+                    <a class="btn btn-ghost" href="https://github.com/FRQ23/gestion_de_la_innovacion" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+            </section>
 
-        <section id="unidad-1" class="unit-block">
-            <div class="container">
-                <h2 class="unit-title">Unidad 1</h2>
+            <section id="datos-personales" class="section-block">
+                <div class="section-head">
+                    <h2 class="section-title">Identificación</h2>
+                    <p class="section-desc">Datos académicos del autor del portafolio.</p>
+                </div>
+                <article class="card card-profile">
+                    <div class="profile-grid">
+                        <div class="profile-item">
+                            <span class="profile-label">Nombre</span>
+                            <span class="profile-value">Fernando Rosales Quiñones</span>
+                        </div>
+                        <div class="profile-item">
+                            <span class="profile-label">Matrícula</span>
+                            <span class="profile-value mono">1299440</span>
+                        </div>
+                        <div class="profile-item profile-item--wide">
+                            <span class="profile-label">Materia</span>
+                            <span class="profile-value">Gestión de la innovación</span>
+                        </div>
+                        <div class="profile-item profile-item--wide">
+                            <span class="profile-label">Universidad</span>
+                            <span class="profile-value">Universidad Autónoma de Baja California</span>
+                        </div>
+                        <div class="profile-item profile-item--wide">
+                            <span class="profile-label">Facultad</span>
+                            <span class="profile-value">Facultad de Ciencias Químicas e Ingeniería</span>
+                        </div>
+                        <div class="profile-item profile-item--full">
+                            <span class="profile-label">Carrera</span>
+                            <span class="profile-value">Ingeniería en Desarrollo de Software y Tecnologías Emergentes</span>
+                        </div>
+                    </div>
+                </article>
+            </section>
+
+            <section id="unidades" class="section-block">
+                <div class="section-head">
+                    <h2 class="section-title">Unidades</h2>
+                    <p class="section-desc">Saltos rápidos a cada bloque del curso.</p>
+                </div>
+                <div class="pill-row">
+                    <a class="pill" href="#unidad-1">Unidad 1</a>
+                    <a class="pill" href="#unidad-2">Unidad 2</a>
+                    <a class="pill" href="#unidad-3">Unidad 3</a>
+                    <a class="pill" href="#unidad-4">Unidad 4</a>
+                </div>
+            </section>
+
+            <section id="unidad-1" class="section-block section-unit">
+                <div class="unit-header">
+                    <span class="unit-badge">01</span>
+                    <h2 class="unit-title">Unidad 1</h2>
+                </div>
                 <div class="unit-grid">
-                    <div class="unit-column">
-                        <h3 class="unit-subtitle">Repositorio (fuentes)</h3>
+                    <div class="card card-panel">
+                        <h3 class="panel-title">Repositorio (fuentes)</h3>
                         <ul class="file-list">
-                            <li><a href="unidad%201/Repositorio%20%28fuentes%29/1_1%20UABCReg_Prop_Intelectual.pdf">1_1 UABCReg_Prop_Intelectual.pdf</a></li>
-                            <li><a href="unidad%201/Repositorio%20%28fuentes%29/Ejercicio%20Caso%20PracticoTranferTec.docx">Ejercicio Caso PracticoTranferTec.docx</a></li>
-                            <li><a href="unidad%201/Repositorio%20%28fuentes%29/Guia%20para%20la%20Redaccion%20y%20Registro%20de%20Patentes%20UNAM.pdf">Guia para la Redaccion y Registro de Patentes UNAM.pdf</a></li>
-                            <li><a href="unidad%201/Repositorio%20%28fuentes%29/GUIA%20PARA%20SOLICITUDES%20DE%20PATENTE%20Y%20MODELO%20DE%20UTILIDAD.pdf">GUIA PARA SOLICITUDES DE PATENTE Y MODELO DE UTILIDAD.pdf</a></li>
-                            <li><a href="unidad%201/Repositorio%20%28fuentes%29/Guia_de_Usuario_de_Patentes_y_Modelos_de_Utilidad.pdf">Guia_de_Usuario_de_Patentes_y_Modelos_de_Utilidad.pdf</a></li>
-                            <li><a href="unidad%201/Repositorio%20%28fuentes%29/GUIA_REGISTRO_INDAUTOR_2021_LIGHT.pdf">GUIA_REGISTRO_INDAUTOR_2021_LIGHT.pdf</a></li>
-                            <li><a href="unidad%201/Repositorio%20%28fuentes%29/HojaAyudaRPDA-01.pdf">HojaAyudaRPDA-01.pdf</a></li>
-                            <li><a href="unidad%201/Repositorio%20%28fuentes%29/impi-00-001.pdf">impi-00-001.pdf</a></li>
-                            <li><a href="unidad%201/Repositorio%20%28fuentes%29/LFDA.pdf">LFDA.pdf</a></li>
-                            <li><a href="unidad%201/Repositorio%20%28fuentes%29/LFPPI.pdf">LFPPI.pdf</a></li>
-                            <li><a href="unidad%201/Repositorio%20%28fuentes%29/LFT.pdf">LFT.pdf</a></li>
-                            <li><a href="unidad%201/Repositorio%20%28fuentes%29/Patentes.pdf">Patentes.pdf</a></li>
-                            <li><a href="unidad%201/Repositorio%20%28fuentes%29/RegistroDA.pdf">RegistroDA.pdf</a></li>
-                            <li><a href="unidad%201/Repositorio%20%28fuentes%29/Triptico%20Patentes.pdf">Triptico Patentes.pdf</a></li>
+                            <li><a href="unidad%201/Repositorio%20%28fuentes%29/1_1%20UABCReg_Prop_Intelectual.pdf"><span class="file-name">1_1 UABCReg_Prop_Intelectual.pdf</span><span class="file-meta">PDF</span></a></li>
+                            <li><a href="unidad%201/Repositorio%20%28fuentes%29/Ejercicio%20Caso%20PracticoTranferTec.docx"><span class="file-name">Ejercicio Caso PracticoTranferTec.docx</span><span class="file-meta">DOCX</span></a></li>
+                            <li><a href="unidad%201/Repositorio%20%28fuentes%29/Guia%20para%20la%20Redaccion%20y%20Registro%20de%20Patentes%20UNAM.pdf"><span class="file-name">Guia para la Redaccion y Registro de Patentes UNAM.pdf</span><span class="file-meta">PDF</span></a></li>
+                            <li><a href="unidad%201/Repositorio%20%28fuentes%29/GUIA%20PARA%20SOLICITUDES%20DE%20PATENTE%20Y%20MODELO%20DE%20UTILIDAD.pdf"><span class="file-name">GUIA PARA SOLICITUDES DE PATENTE Y MODELO DE UTILIDAD.pdf</span><span class="file-meta">PDF</span></a></li>
+                            <li><a href="unidad%201/Repositorio%20%28fuentes%29/Guia_de_Usuario_de_Patentes_y_Modelos_de_Utilidad.pdf"><span class="file-name">Guia_de_Usuario_de_Patentes_y_Modelos_de_Utilidad.pdf</span><span class="file-meta">PDF</span></a></li>
+                            <li><a href="unidad%201/Repositorio%20%28fuentes%29/GUIA_REGISTRO_INDAUTOR_2021_LIGHT.pdf"><span class="file-name">GUIA_REGISTRO_INDAUTOR_2021_LIGHT.pdf</span><span class="file-meta">PDF</span></a></li>
+                            <li><a href="unidad%201/Repositorio%20%28fuentes%29/HojaAyudaRPDA-01.pdf"><span class="file-name">HojaAyudaRPDA-01.pdf</span><span class="file-meta">PDF</span></a></li>
+                            <li><a href="unidad%201/Repositorio%20%28fuentes%29/impi-00-001.pdf"><span class="file-name">impi-00-001.pdf</span><span class="file-meta">PDF</span></a></li>
+                            <li><a href="unidad%201/Repositorio%20%28fuentes%29/LFDA.pdf"><span class="file-name">LFDA.pdf</span><span class="file-meta">PDF</span></a></li>
+                            <li><a href="unidad%201/Repositorio%20%28fuentes%29/LFPPI.pdf"><span class="file-name">LFPPI.pdf</span><span class="file-meta">PDF</span></a></li>
+                            <li><a href="unidad%201/Repositorio%20%28fuentes%29/LFT.pdf"><span class="file-name">LFT.pdf</span><span class="file-meta">PDF</span></a></li>
+                            <li><a href="unidad%201/Repositorio%20%28fuentes%29/Patentes.pdf"><span class="file-name">Patentes.pdf</span><span class="file-meta">PDF</span></a></li>
+                            <li><a href="unidad%201/Repositorio%20%28fuentes%29/RegistroDA.pdf"><span class="file-name">RegistroDA.pdf</span><span class="file-meta">PDF</span></a></li>
+                            <li><a href="unidad%201/Repositorio%20%28fuentes%29/Triptico%20Patentes.pdf"><span class="file-name">Triptico Patentes.pdf</span><span class="file-meta">PDF</span></a></li>
                         </ul>
                     </div>
-                    <div class="unit-column">
-                        <h3 class="unit-subtitle">Trabajos y actividades</h3>
+                    <div class="card card-panel">
+                        <h3 class="panel-title">Trabajos y actividades</h3>
                         <ul class="file-list">
-                            <li><a href="unidad%201/trabajos%20-%20actividades/Cuestionario%201%20%28con%20respuesta%20generales%29%20%281%29.pdf">Cuestionario 1 (con respuesta generales) (1).pdf</a></li>
-                            <li><a href="unidad%201/trabajos%20-%20actividades/Cuestionario%201%20%28con%20respuesta%20generales%29.pdf">Cuestionario 1 (con respuesta generales).pdf</a></li>
-                            <li><a href="unidad%201/trabajos%20-%20actividades/Cuestionario%20No.%201.3_%20Transferencia%20de%20Tecnolog%C3%ADa%20%281%29.pdf">Cuestionario No. 1.3_ Transferencia de Tecnología (1).pdf</a></li>
-                            <li><a href="unidad%201/trabajos%20-%20actividades/Cuestionario%20No.%201.3_%20Transferencia%20de%20Tecnolog%C3%ADa.pdf">Cuestionario No. 1.3_ Transferencia de Tecnología.pdf</a></li>
-                            <li><a href="unidad%201/trabajos%20-%20actividades/Ensayo%20Unidad%201.pdf">Ensayo Unidad 1.pdf</a></li>
-                            <li><a href="unidad%201/trabajos%20-%20actividades/Reporte%20de%20Pr%C3%A1ctica%20de%20Taller%20No.%201.pdf">Reporte de Práctica de Taller No. 1.pdf</a></li>
-                            <li><a href="unidad%201/trabajos%20-%20actividades/Reporte%20de%20Taller%20Practica%202.pdf">Reporte de Taller Practica 2.pdf</a></li>
+                            <li><a href="unidad%201/trabajos%20-%20actividades/Cuestionario%201%20%28con%20respuesta%20generales%29%20%281%29.pdf"><span class="file-name">Cuestionario 1 (con respuesta generales) (1).pdf</span><span class="file-meta">PDF</span></a></li>
+                            <li><a href="unidad%201/trabajos%20-%20actividades/Cuestionario%201%20%28con%20respuesta%20generales%29.pdf"><span class="file-name">Cuestionario 1 (con respuesta generales).pdf</span><span class="file-meta">PDF</span></a></li>
+                            <li><a href="unidad%201/trabajos%20-%20actividades/Cuestionario%20No.%201.3_%20Transferencia%20de%20Tecnolog%C3%ADa%20%281%29.pdf"><span class="file-name">Cuestionario No. 1.3_ Transferencia de Tecnología (1).pdf</span><span class="file-meta">PDF</span></a></li>
+                            <li><a href="unidad%201/trabajos%20-%20actividades/Cuestionario%20No.%201.3_%20Transferencia%20de%20Tecnolog%C3%ADa.pdf"><span class="file-name">Cuestionario No. 1.3_ Transferencia de Tecnología.pdf</span><span class="file-meta">PDF</span></a></li>
+                            <li><a href="unidad%201/trabajos%20-%20actividades/Ensayo%20Unidad%201.pdf"><span class="file-name">Ensayo Unidad 1.pdf</span><span class="file-meta">PDF</span></a></li>
+                            <li><a href="unidad%201/trabajos%20-%20actividades/Reporte%20de%20Pr%C3%A1ctica%20de%20Taller%20No.%201.pdf"><span class="file-name">Reporte de Práctica de Taller No. 1.pdf</span><span class="file-meta">PDF</span></a></li>
+                            <li><a href="unidad%201/trabajos%20-%20actividades/Reporte%20de%20Taller%20Practica%202.pdf"><span class="file-name">Reporte de Taller Practica 2.pdf</span><span class="file-meta">PDF</span></a></li>
                         </ul>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section id="unidad-2" class="unit-block unit-block-alt">
-            <div class="container">
-                <h2 class="unit-title">Unidad 2</h2>
+            <section id="unidad-2" class="section-block section-unit section-unit--muted">
+                <div class="unit-header">
+                    <span class="unit-badge">02</span>
+                    <h2 class="unit-title">Unidad 2</h2>
+                </div>
                 <div class="unit-grid">
-                    <div class="unit-column">
-                        <h3 class="unit-subtitle">Repositorio (fuentes)</h3>
-                        <p class="unit-empty">Sin material publicado en esta sección.</p>
+                    <div class="card card-panel">
+                        <h3 class="panel-title">Repositorio (fuentes)</h3>
+                        <p class="empty-state">Sin material publicado en esta sección.</p>
                     </div>
-                    <div class="unit-column">
-                        <h3 class="unit-subtitle">Trabajos y actividades</h3>
-                        <p class="unit-empty">Sin material publicado en esta sección.</p>
+                    <div class="card card-panel">
+                        <h3 class="panel-title">Trabajos y actividades</h3>
+                        <p class="empty-state">Sin material publicado en esta sección.</p>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section id="unidad-3" class="unit-block">
-            <div class="container">
-                <h2 class="unit-title">Unidad 3</h2>
+            <section id="unidad-3" class="section-block section-unit">
+                <div class="unit-header">
+                    <span class="unit-badge">03</span>
+                    <h2 class="unit-title">Unidad 3</h2>
+                </div>
                 <div class="unit-grid">
-                    <div class="unit-column">
-                        <h3 class="unit-subtitle">Repositorio (fuentes)</h3>
+                    <div class="card card-panel">
+                        <h3 class="panel-title">Repositorio (fuentes)</h3>
                         <ul class="file-list">
-                            <li><a href="unidad%203/Repositorio%20%28fuentes%29/0301-7036-prode-48-190-37.pdf">0301-7036-prode-48-190-37.pdf</a></li>
-                            <li><a href="unidad%203/Repositorio%20%28fuentes%29/0718-5693-gpt-14-40-94.pdf">0718-5693-gpt-14-40-94.pdf</a></li>
-                            <li><a href="unidad%203/Repositorio%20%28fuentes%29/2007-5308-mcp-11-33-71.pdf">2007-5308-mcp-11-33-71.pdf</a></li>
-                            <li><a href="unidad%203/Repositorio%20%28fuentes%29/Aprendizaje%20Tecnologico%20en%20MX.pdf">Aprendizaje Tecnologico en MX.pdf</a></li>
-                            <li><a href="unidad%203/Repositorio%20%28fuentes%29/Efecto%20de%20la%20Innivacion%20en%20el%20Desarrollo.pdf">Efecto de la Innivacion en el Desarrollo.pdf</a></li>
-                            <li><a href="unidad%203/Repositorio%20%28fuentes%29/Empresasd%20de%20Software%20MX.pdf">Empresasd de Software MX.pdf</a></li>
-                            <li><a href="unidad%203/Repositorio%20%28fuentes%29/La-innovacion-tecnologica-en-Mexico_REV.pdf">La-innovacion-tecnologica-en-Mexico_REV.pdf</a></li>
-                            <li><a href="unidad%203/Repositorio%20%28fuentes%29/wipo-pub-2000-2025-exec-es-global-innovation-index-2025.pdf">wipo-pub-2000-2025-exec-es-global-innovation-index-2025.pdf</a></li>
+                            <li><a href="unidad%203/Repositorio%20%28fuentes%29/0301-7036-prode-48-190-37.pdf"><span class="file-name">0301-7036-prode-48-190-37.pdf</span><span class="file-meta">PDF</span></a></li>
+                            <li><a href="unidad%203/Repositorio%20%28fuentes%29/0718-5693-gpt-14-40-94.pdf"><span class="file-name">0718-5693-gpt-14-40-94.pdf</span><span class="file-meta">PDF</span></a></li>
+                            <li><a href="unidad%203/Repositorio%20%28fuentes%29/2007-5308-mcp-11-33-71.pdf"><span class="file-name">2007-5308-mcp-11-33-71.pdf</span><span class="file-meta">PDF</span></a></li>
+                            <li><a href="unidad%203/Repositorio%20%28fuentes%29/Aprendizaje%20Tecnologico%20en%20MX.pdf"><span class="file-name">Aprendizaje Tecnologico en MX.pdf</span><span class="file-meta">PDF</span></a></li>
+                            <li><a href="unidad%203/Repositorio%20%28fuentes%29/Efecto%20de%20la%20Innivacion%20en%20el%20Desarrollo.pdf"><span class="file-name">Efecto de la Innivacion en el Desarrollo.pdf</span><span class="file-meta">PDF</span></a></li>
+                            <li><a href="unidad%203/Repositorio%20%28fuentes%29/Empresasd%20de%20Software%20MX.pdf"><span class="file-name">Empresasd de Software MX.pdf</span><span class="file-meta">PDF</span></a></li>
+                            <li><a href="unidad%203/Repositorio%20%28fuentes%29/La-innovacion-tecnologica-en-Mexico_REV.pdf"><span class="file-name">La-innovacion-tecnologica-en-Mexico_REV.pdf</span><span class="file-meta">PDF</span></a></li>
+                            <li><a href="unidad%203/Repositorio%20%28fuentes%29/wipo-pub-2000-2025-exec-es-global-innovation-index-2025.pdf"><span class="file-name">wipo-pub-2000-2025-exec-es-global-innovation-index-2025.pdf</span><span class="file-meta">PDF</span></a></li>
                         </ul>
                     </div>
-                    <div class="unit-column">
-                        <h3 class="unit-subtitle">Trabajos y actividades</h3>
+                    <div class="card card-panel">
+                        <h3 class="panel-title">Trabajos y actividades</h3>
                         <ul class="file-list">
-                            <li><a href="unidad%203/trabajos%20-%20actividades/Reporte%20de%20Pr%C3%A1ctica%20de%20Taller%20No.%204.pdf">Reporte de Práctica de Taller No. 4.pdf</a></li>
-                            <li><a href="unidad%203/trabajos%20-%20actividades/Reporte%20de%20Taller%20Practica%203.pdf">Reporte de Taller Practica 3.pdf</a></li>
-                            <li><a href="unidad%203/trabajos%20-%20actividades/Reporte%20de%20Taller%20Practica%205.pdf">Reporte de Taller Practica 5.pdf</a></li>
-                            <li><a href="unidad%203/trabajos%20-%20actividades/Reporte%20Taller%20Practica%206.pdf">Reporte Taller Practica 6.pdf</a></li>
-                            <li><a href="unidad%203/trabajos%20-%20actividades/Reporte%20Taller%20Practica%207.pdf">Reporte Taller Practica 7.pdf</a></li>
-                            <li><a href="unidad%203/trabajos%20-%20actividades/Reporte%20Taller%20Practica%208.pdf">Reporte Taller Practica 8.pdf</a></li>
+                            <li><a href="unidad%203/trabajos%20-%20actividades/Reporte%20de%20Pr%C3%A1ctica%20de%20Taller%20No.%204.pdf"><span class="file-name">Reporte de Práctica de Taller No. 4.pdf</span><span class="file-meta">PDF</span></a></li>
+                            <li><a href="unidad%203/trabajos%20-%20actividades/Reporte%20de%20Taller%20Practica%203.pdf"><span class="file-name">Reporte de Taller Practica 3.pdf</span><span class="file-meta">PDF</span></a></li>
+                            <li><a href="unidad%203/trabajos%20-%20actividades/Reporte%20de%20Taller%20Practica%205.pdf"><span class="file-name">Reporte de Taller Practica 5.pdf</span><span class="file-meta">PDF</span></a></li>
+                            <li><a href="unidad%203/trabajos%20-%20actividades/Reporte%20Taller%20Practica%206.pdf"><span class="file-name">Reporte Taller Practica 6.pdf</span><span class="file-meta">PDF</span></a></li>
+                            <li><a href="unidad%203/trabajos%20-%20actividades/Reporte%20Taller%20Practica%207.pdf"><span class="file-name">Reporte Taller Practica 7.pdf</span><span class="file-meta">PDF</span></a></li>
+                            <li><a href="unidad%203/trabajos%20-%20actividades/Reporte%20Taller%20Practica%208.pdf"><span class="file-name">Reporte Taller Practica 8.pdf</span><span class="file-meta">PDF</span></a></li>
                         </ul>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section id="unidad-4" class="unit-block unit-block-alt">
-            <div class="container">
-                <h2 class="unit-title">Unidad 4</h2>
+            <section id="unidad-4" class="section-block section-unit section-unit--muted">
+                <div class="unit-header">
+                    <span class="unit-badge">04</span>
+                    <h2 class="unit-title">Unidad 4</h2>
+                </div>
                 <div class="unit-grid">
-                    <div class="unit-column">
-                        <h3 class="unit-subtitle">Repositorio (fuentes)</h3>
-                        <p class="unit-empty">Sin material publicado en esta sección.</p>
+                    <div class="card card-panel">
+                        <h3 class="panel-title">Repositorio (fuentes)</h3>
+                        <p class="empty-state">Sin material publicado en esta sección.</p>
                     </div>
-                    <div class="unit-column">
-                        <h3 class="unit-subtitle">Trabajos y actividades</h3>
-                        <p class="unit-empty">Sin material publicado en esta sección.</p>
+                    <div class="card card-panel">
+                        <h3 class="panel-title">Trabajos y actividades</h3>
+                        <p class="empty-state">Sin material publicado en esta sección.</p>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
     </main>
 
-    <footer>
-        <div class="container">
-            <p class="footer-line">Portafolio académico — Gestión de la Innovación</p>
-            <p class="footer-line">Autor: <a href="https://github.com/FRQ23" target="_blank" rel="noopener noreferrer">FRQ23</a></p>
-            <p class="footer-line"><a href="https://github.com/FRQ23/gestion_de_la_innovacion" target="_blank" rel="noopener noreferrer">Código y archivos en GitHub</a> · GitHub Pages</p>
-            <p class="footer-copy">&copy; 2026</p>
+    <footer class="site-footer">
+        <div class="wrap footer-inner">
+            <p class="footer-line">Portafolio · Gestión de la innovación · <a href="https://github.com/FRQ23" target="_blank" rel="noopener noreferrer">FRQ23</a></p>
+            <p class="footer-line"><a href="https://github.com/FRQ23/gestion_de_la_innovacion" target="_blank" rel="noopener noreferrer">Repositorio</a> · GitHub Pages</p>
+            <p class="footer-note">Diseño propio inspirado en kits tipo <a href="https://minimals.cc/" target="_blank" rel="noopener noreferrer">Minimals</a> (no es el producto MUI). &copy; 2026</p>
         </div>
     </footer>
 

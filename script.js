@@ -12,7 +12,7 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 
 window.addEventListener('scroll', () => {
     const sections = document.querySelectorAll('section[id]');
-    const navLinks = document.querySelectorAll('.nav-menu a[href^="#"]');
+    const navLinks = document.querySelectorAll('.site-nav a[href^="#"]');
 
     let current = '';
     sections.forEach((section) => {
