@@ -129,11 +129,11 @@ body.site {
 }
 
 .brand-mark {
-    width: 2.25rem;
-    height: 2.25rem;
-    border-radius: 10px;
-    background: linear-gradient(135deg, var(--accent), var(--accent-2));
-    box-shadow: 0 4px 14px rgba(0, 167, 111, 0.35);
+    width: auto;
+    height: 2.5rem;
+    object-fit: contain;
+    display: block;
+    flex-shrink: 0;
 }
 
 .site-nav {
@@ -389,7 +389,7 @@ section[id] {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-width: 2.5rem;
+    min-width: 2.75rem;
     height: 2.5rem;
     padding: 0 0.5rem;
     font-size: 0.8rem;
