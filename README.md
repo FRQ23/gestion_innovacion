@@ -1,19 +1,21 @@
-# Gestión de la Innovación — portafolio (GitHub Pages)
+# Gestión de la Innovación — portafolio
 
-Sitio estático para **consultar** el material del curso: unidades, carpeta de fuentes y carpeta de trabajos. La versión publicada vive junto a los PDF y demás archivos en el mismo repositorio.
+Sitio estático del curso **Gestión de la Innovación** (UABC): material por unidad, repositorio de fuentes y trabajos entregados.
 
-Sitio: [https://frq23.github.io/gestion_de_la_innovacion/](https://frq23.github.io/gestion_de_la_innovacion/)
+- **Sitio publicado:** [frq23.github.io/gestion_innovacion](https://frq23.github.io/gestion_innovacion/)
+- **Repositorio:** [github.com/FRQ23/gestion_innovacion](https://github.com/FRQ23/gestion_innovacion)
 
-Repositorio: [https://github.com/FRQ23/gestion_de_la_innovacion](https://github.com/FRQ23/gestion_de_la_innovacion)
+## Estructura
 
-## Contenido en el repo
+| Ruta | Contenido |
+|------|-----------|
+| `index.html`, `styles.css`, `script.js` | Portafolio web |
+| `assets/` | Recursos gráficos (escudo UABC, etc.) |
+| `unidad N/Repositorio (fuentes)/` | Lecturas y referencias (PDF y enlaces) |
+| `unidad N/trabajos - actividades/` | Reportes, cuestionarios y entregables |
 
-- `index.html`, `styles.css`, `script.js` — portafolio (CSS propio, tipografía [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans); estética inspirada en dashboards tipo [Minimals](https://minimals.cc/), sin usar ese kit MUI de pago)
-- `unidad N/Repositorio (fuentes)/` — referencias y lecturas
-- `unidad N/trabajos - actividades/` — entregables
+## Tecnología
+
+HTML, CSS y JavaScript sin framework. Tipografía [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans). Vista previa de PDF con [PDF.js](https://mozilla.github.io/pdf.js/).
 
 Autor: [FRQ23](https://github.com/FRQ23)
-
-## Archivero local
-
-En el escritorio, la carpeta **archivero** guarda la copia de trabajo de `unidad 1` … `unidad 4`. Si agregas o cambias PDFs ahí, copia esas carpetas encima de **gestion** antes de `git push` para que el sitio y el repo sigan al día.
