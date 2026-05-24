@@ -436,18 +436,6 @@ section[id] {
     background: var(--bg0);
 }
 
-.panel-subtitle {
-    margin: 0;
-    padding: 0.85rem 1.15rem 0.35rem;
-    font-size: 0.72rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: var(--text-soft);
-    border-top: 1px solid var(--border);
-    background: var(--bg0);
-}
-
 .file-list {
     list-style: none;
     margin: 0;
@@ -528,6 +516,44 @@ section[id] {
     text-align: center;
     line-height: 1.2;
     padding: 0.25rem;
+}
+
+.file-preview--docx {
+    background: linear-gradient(160deg, #e8f0fe 0%, #d2e3fc 100%);
+    color: #1a56c4;
+}
+
+.file-preview--docx .file-preview-icon {
+    width: 1.65rem;
+    height: 1.65rem;
+}
+
+.file-preview--web {
+    background: var(--surface);
+}
+
+.file-preview--web img {
+    width: 1.75rem;
+    height: 1.75rem;
+    object-fit: contain;
+    display: block;
+}
+
+.file-preview--web-fallback {
+    background: hsl(var(--preview-hue, 210) 55% 92%);
+    color: hsl(var(--preview-hue, 210) 45% 38%);
+}
+
+.file-preview-fallback-letter {
+    font-size: 1.15rem;
+    font-weight: 800;
+    line-height: 1;
+}
+
+.file-preview-icon {
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .file-preview--loading {
